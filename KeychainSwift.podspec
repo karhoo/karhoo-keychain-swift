@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name        = "KeychainSwift"
-  s.version     = "20.0.0"
+  s.name        = "KarhooKeychainSwift"
+  s.version     = "1.0.1"
   s.license     = { :type => "MIT" }
-  s.homepage    = "https://github.com/evgenyneu/keychain-swift"
+  s.homepage    = "https://github.com/karhoo/karhoo-keychain-swift"
   s.summary     = "A library for saving text and data in the Keychain with Swift."
   s.description = <<-DESC
                 This is a collection of helper functions for saving text and data in the Keychain.
@@ -10,9 +10,11 @@ Pod::Spec.new do |s|
                 * Write and read text and Data with simple functions.
                 * Specify optional access rule for the keychain item.
                 * Limit operations to a specific access group.
+
+                Fork from https://github.com/evgenyneu/keychain-swift.git
                 DESC
   s.authors     = { "Evgenii Neumerzhitckii" => "sausageskin@gmail.com" }
-  s.source      = { :git => "https://github.com/evgenyneu/keychain-swift.git", :tag => s.version }
+  s.source      = { :git => "https://github.com/karhoo/karhoo-keychain-swift", :tag => s.version }
   s.screenshots  = "https://raw.githubusercontent.com/evgenyneu/keychain-swift/master/graphics/keychain-swift-demo-3.png"
   s.source_files = "Sources/*.swift"
   s.ios.deployment_target = "12.0"
